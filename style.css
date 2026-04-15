@@ -1,1 +1,186 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+/* BODY */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f2ed;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* CONTAINER */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* HERO SECTION */
+.hero {
+    background: #e8e5df;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 60px;
+    letter-spacing: 3px;
+}
+
+.tagline {
+    display: inline-block;
+    background: #8faeb1;
+    padding: 12px 25px;
+    border-radius: 8px;
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.author {
+    margin-top: 10px;
+    color: #555;
+}
+
+/* BUTTON */
+.btn {
+    display: inline-block;
+    background: linear-gradient(135deg, #8faeb1, #6f8f93);
+    color: #fff;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: 500;
+    margin-top: 15px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.btn:hover {
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+    background: linear-gradient(135deg, #6f8f93, #8faeb1);
+}
+
+/* SECTION HEADINGS */
+section h2 {
+    font-family: 'Playfair Display', serif;
+    background: #8faeb1;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+/* REACH */
+.reach-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px 20px;
+}
+
+.reach-card {
+    width: 220px;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.reach-card img {
+    width: 100%;
+    display: block;
+}
+
+/* PROJECTS */
+.projects-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    padding: 40px 20px;
+}
+
+.project-card {
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.project-card img {
+    width: 100%;
+}
+
+.project-card h3 {
+    padding: 10px;
+}
+
+/* ACCOUNTS */
+.accounts-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 40px 20px;
+}
+
+.account-card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.username {
+    display: inline-block;
+    background: #d8d0c4;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.account-card ul {
+    padding-left: 18px;
+    margin: 10px 0;
+}
+
+/* CONTACT */
+.contact {
+    background: #f4f2ed;
+    text-align: center;
+}
+
+.contact h2 {
+    font-family: 'Playfair Display', serif;
+    background: #8faeb1;
+    padding: 15px;
+}
+
+.contact-box {
+    padding: 40px 20px;
+}
+
+/* FOOTER */
+footer {
+    background: #e8e5df;
+    text-align: center;
+    padding: 30px;
+}
+
+footer h3 {
+    font-family: 'Playfair Display', serif;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 36px;
+    }
+}
